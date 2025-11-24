@@ -28,5 +28,15 @@
 - Many2one: A field representing a many-to-one relationship with another model.
 - One2many: A field representing a one-to-many relationship with another model.
 - Many2many: A field representing a many-to-many relationship with another model.
+## Common Field Attributes
+- string: The label for the field.
+- required: A boolean indicating whether the field is mandatory.
+- default: The default value for the field.
+- help: A help text for the field.
+- readonly: A boolean indicating whether the field is read-only.
+- index: A boolean indicating whether to create a database index for the field.
+- unique: A boolean indicating whether the field value must be unique.
+# Views
+
 
  

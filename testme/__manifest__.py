@@ -14,7 +14,9 @@ TestMe — module d'exemple contenant des modèles, vues et données de démonst
         "base",
     ],
     "data": [
-
+      'security/ir.model.access.csv',
+      'views/base_menu.xml',
+      'views/property_view.xml',
     ],
 
     "qweb": [
